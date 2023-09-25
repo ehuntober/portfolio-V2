@@ -42,5 +42,63 @@ main{
 
 }
 
+header{
+    padding: 10px;
+}
+
+header p{
+    padding: 5px;
+}
+
+.site-nav{
+    background-color: purple;
+    border-bottom: solid white 1px;
+    border-top: solid white 1px;
+    padding: 10px;
+
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 10px;
+
+}
+
+.site-nav button{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
