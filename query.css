@@ -8,6 +8,16 @@
     .first_sect h1{
         font-size: 30px;
     }
+
+  .minx,  .container-box{
+
+        grid-template-columns: 1fr 1fr 1fr ;
+
+    }
+
+    .projects-container{
+        grid-template-columns: 1fr 1fr;
+    }
     
     
     
@@ -19,6 +29,18 @@
 
     main{
         width: 95%;
+    }
+
+    .minx,  .container-box{
+
+        grid-template-columns: 1fr 1fr ;
+
+    }
+    
+
+
+    .projects-container{
+        grid-template-columns: 1fr;
     }
     
     
