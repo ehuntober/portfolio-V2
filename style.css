@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #0a0a0a;
+}
+
 nav{
-    background-color: red;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    border-bottom: solid white 1px;
+    border-bottom: solid grey 1px;
 }
 
 nav a{
@@ -24,14 +27,14 @@ nav a{
 main{
     width: 80%;
     margin: 0 auto;
-    background-color: red;
+
 }
 
 .profile-box{
     display: flex;
     justify-content: column;
     align-items: center;
-    background-color: green;
+
 }
 .profile-box img{
     align-self: center;
@@ -51,9 +54,8 @@ header p{
 }
 
 .site-nav{
-    background-color: purple;
-    border-bottom: solid white 1px;
-    border-top: solid white 1px;
+    border-bottom: solid grey 1px;
+    border-top: solid grey 1px;
     padding: 10px;
 
 }
@@ -149,6 +151,23 @@ header p{
     gap: 5px;
 }
 
+
+.projects{
+    padding: 10px;
+}
+
+.projects h2{
+    color: white;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+.projects p{
+    color: rgb(163, 163, 163);
+    padding-bottom: 10px;
+    line-height: 1.65em;
+}
+
 .projects-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -157,6 +176,7 @@ header p{
 }
 
 .project-img-box{
+    padding-top: 5px;
    
 }
 
@@ -173,6 +193,14 @@ header p{
     background-color:white;
 }
 
+
+footer{
+    padding: 30px;
+    text-align: center;
+    color:rgb(163, 163, 163);
+    border-bottom: solid grey 1px;
+    border-top: solid grey 1px;
+}
 
 
 
