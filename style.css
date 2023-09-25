@@ -6,11 +6,12 @@
 
 nav{
     background-color: red;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border-bottom: solid white 1px;
 }
 
 nav a{
@@ -19,3 +20,27 @@ nav a{
     color: white;
 
 }
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.profile-box{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    background-color: green;
+}
+.profile-box img{
+    align-self: center;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    max-height: 6em;
+
+}
+
+
+

@@ -1,0 +1,21 @@
+
+  @media screen and (max-width: 768px) {
+
+    main{
+        width: 90%;
+    }
+    
+    
+
+  }
+  
+  /* Responsive styles for mobile devices (up to 480px) */
+  @media screen and (max-width: 480px) {
+
+    main{
+        width: 95%;
+    }
+    
+    
+  }
+  
